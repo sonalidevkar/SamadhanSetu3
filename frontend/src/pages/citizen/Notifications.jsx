@@ -16,7 +16,7 @@ import {
   Star,
 } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api/notifications";
+const API_URL = "https://samadhansetu3.onrender.com/api/notifications";
 
 function Notifications() {
   const [notifications, setNotifications] = useState([]);

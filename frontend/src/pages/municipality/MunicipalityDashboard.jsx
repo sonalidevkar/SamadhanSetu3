@@ -42,7 +42,7 @@ function MunicipalityDashboard() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/problems/municipality-assigned",
+        "https://samadhansetu3.onrender.com/api/problems/municipality-assigned",
         {
           method: "GET",
           headers: {
@@ -103,7 +103,7 @@ function MunicipalityDashboard() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/problems/${problemId}/municipality-${action}`,
+        `https://samadhansetu3.onrender.com/api/problems/${problemId}/municipality-${action}`,
         {
           method: "PUT",
           headers: {
@@ -264,7 +264,7 @@ function MunicipalityDashboard() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/problems/${problemId}/progress`,
+        `https://samadhansetu3.onrender.com/api/problems/${problemId}/progress`,
         {
           method: "PUT",
           headers: {

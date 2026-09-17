@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://samadhansetu3.onrender.com/api";
 
 function Rewards() {
   const [rewardData, setRewardData] = useState({

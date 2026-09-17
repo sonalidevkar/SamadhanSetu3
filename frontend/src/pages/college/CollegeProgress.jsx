@@ -24,7 +24,7 @@ function CollegeProgress() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/problems/college-assigned",
+        "https://samadhansetu3.onrender.com/api/problems/college-assigned",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -80,7 +80,7 @@ function CollegeProgress() {
       setSuccess("");
 
       const response = await fetch(
-        `http://localhost:5000/api/problems/${selectedProblem._id}/progress`,
+        `https://samadhansetu3.onrender.com/api/problems/${selectedProblem._id}/progress`,
         {
           method: "PUT",
           headers: {

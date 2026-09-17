@@ -20,7 +20,7 @@ function CollegeDashboard() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/problems/college-assigned",
+        "https://samadhansetu3.onrender.com/api/problems/college-assigned",
         {
           headers: {
             Authorization: `Bearer ${token}`,

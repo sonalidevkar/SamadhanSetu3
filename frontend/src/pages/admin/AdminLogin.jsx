@@ -18,7 +18,7 @@ function AdminLogin() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/login",
+        "https://samadhansetu3.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {
@@ -185,4 +185,5 @@ function AdminLogin() {
 }
 
 export default AdminLogin;
+
 

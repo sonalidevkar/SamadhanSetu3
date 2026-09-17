@@ -22,11 +22,11 @@ function Login() {
     console.log("========== CITIZEN LOGIN ==========");
     console.log("Email:", loginEmail);
     console.log("Password length:", password.length);
-    console.log("API URL:", "http://localhost:5000/api/auth/login");
+    console.log("API URL:", "https://samadhansetu3.onrender.com/api/auth/login");
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/auth/login",
+        "https://samadhansetu3.onrender.com/api/auth/login",
         {
           method: "POST",
           headers: {

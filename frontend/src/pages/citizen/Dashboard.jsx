@@ -34,7 +34,7 @@ function Dashboard() {
       }
 
       const response = await fetch(
-        "http://localhost:5000/api/problems/my",
+        "https://samadhansetu3.onrender.com/api/problems/my",
         {
           method: "GET",
           headers: {

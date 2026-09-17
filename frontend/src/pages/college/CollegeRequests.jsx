@@ -17,7 +17,7 @@ function CollegeRequests() {
       setError("");
 
       const response = await fetch(
-        "http://localhost:5000/api/problems/college-assigned",
+        "https://samadhansetu3.onrender.com/api/problems/college-assigned",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -52,7 +52,7 @@ function CollegeRequests() {
       setError("");
 
       const response = await fetch(
-        `http://localhost:5000/api/problems/${problemId}/${action}`,
+        `https://samadhansetu3.onrender.com/api/problems/${problemId}/${action}`,
         {
           method: "PUT",
           headers: {

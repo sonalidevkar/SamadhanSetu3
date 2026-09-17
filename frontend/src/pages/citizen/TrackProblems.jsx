@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://samadhansetu3.onrender.com/api";
 
 function TrackProblems() {
   const { id } = useParams();

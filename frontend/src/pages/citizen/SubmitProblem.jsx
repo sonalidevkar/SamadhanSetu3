@@ -481,7 +481,7 @@ function SubmitProblem() {
       ================================================= */
 
       const response = await fetch(
-        "http://localhost:5000/api/problems",
+        "https://samadhansetu3.onrender.com/api/problems",
         {
           method: "POST",
 
